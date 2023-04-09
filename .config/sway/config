@@ -46,7 +46,7 @@ bindsym $mod+Shift+s exec grim -g "$(slurp)"
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /usr/share/backgrounds/archlinux/archwave.png fill
+output * bg /usr/share/backgrounds/grayandred/grayandred_fox.jpg fill
 #
 # Example configuration:
 #
