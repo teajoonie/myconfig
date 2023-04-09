@@ -60,7 +60,7 @@
 	color: @gray1;
 	font-family: Hack Nerd Font;
 	font-size: 13pt;
-	/*font-weight: bold;*/
+	font-weight: bold;
 }
 
 /* Each module */
@@ -118,8 +118,8 @@
 	/*font-weight: bold;*/
 	padding-left: 4pt;
 	padding-right: 4pt;
-	color: @gray10;
-	background: @gray1;
+	color: @gray1;
+	background: @grayred2;
 }
 
 /* Inactive (on unfocused output) */
@@ -130,8 +130,8 @@
 
 /* Active (on focused output) */
 #workspaces button.focused {
-	color: @gray1;
-	background: @grayred2;
+	color: @gray10;
+	background: @gray1;
 }
 
 /* Contains an urgent window */
@@ -142,8 +142,8 @@
 
 /* Style when cursor is on the button */
 #workspaces button:hover {
-	background: @gray7;
-	color: @gray1;
+	background: @gray4;
+	color: @gray10;
 }
 
 #window {
