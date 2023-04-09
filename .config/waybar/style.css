@@ -1,0 +1,276 @@
+/* Keyframes */
+
+@keyframes blink-critical {
+	to {
+		/*color: @white;*/
+		background-color: @critical;
+	}
+}
+
+
+/* Styles */
+/* my colorscheme */
+@define-color grayred2 #af0000;
+@define-color grayred1 #ff0000;
+@define-color gray10 #393939;
+@define-color gray9  #4b4b4b;
+@define-color gray8  #5d5d5d;
+@define-color gray7  #6f6f6f;
+@define-color gray6  #818181;
+@define-color gray5  #939393;
+@define-color gray4  #a5a5a5;
+@define-color gray3  #b7b7b7;
+@define-color gray2  #c9c9c9;
+@define-color gray1  #e3e3e3;
+
+/* Colors (gruvbox) */
+@define-color wanningred	#FC605F;
+
+@define-color warning 	@wanningred;
+@define-color critical	@red;
+@define-color mode	@black;
+@define-color unfocused	@bg2;
+@define-color focused	@braqua;
+@define-color inactive	@purple;
+@define-color sound	@brpurple;
+@define-color network	@gray10;
+@define-color memory	@braqua;
+@define-color cpu	@green;
+@define-color temp	@brgreen;
+@define-color layout	@bryellow;
+@define-color battery	@aqua;
+@define-color date	@black;
+@define-color time	@white;
+
+/* Reset all styles */
+* {
+	border: none;
+	border-radius: 0;
+	min-height: 0;
+	margin: 0;
+	padding: 0;
+	box-shadow: none;
+	text-shadow: none;
+	icon-shadow: none;
+}
+
+/* The whole bar */
+#waybar {
+	background: rgba(175,00,00, 1); /* #282828e0 */
+	color: @gray1;
+	font-family: Hack Nerd Font;
+	font-size: 13pt;
+	/*font-weight: bold;*/
+}
+
+/* Each module */
+#battery,
+#clock,
+#cpu,
+#language,
+#memory,
+#mode,
+#network,
+#pulseaudio,
+#temperature,
+#tray,
+#backlight,
+#idle_inhibitor,
+#disk,
+#user,
+#mpris {
+	padding-left: 8pt;
+	padding-right: 8pt;
+}
+
+/* Each critical module */
+#mode,
+#memory.critical,
+#cpu.critical,
+#temperature.critical,
+#battery.critical.discharging {
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-name: blink-critical;
+	animation-duration: 1s;
+}
+
+/* Each warning */
+#network.disconnected,
+#memory.warning,
+#cpu.warning,
+#temperature.warning,
+#battery.warning.discharging {
+	color: @warning;
+}
+
+/* And now modules themselves in their respective order */
+
+/* Current sway mode (resize etc) */
+#mode {
+	color: @white;
+	background: @mode;
+}
+
+/* Workspaces stuff */
+#workspaces button {
+	/*font-weight: bold;*/
+	padding-left: 4pt;
+	padding-right: 4pt;
+	color: @gray10;
+	background: @gray1;
+}
+
+/* Inactive (on unfocused output) */
+#workspaces button.visible {
+	color: @gray10;
+	background: @gray4;
+}
+
+/* Active (on focused output) */
+#workspaces button.focused {
+	color: @gray1;
+	background: @grayred2;
+}
+
+/* Contains an urgent window */
+#workspaces button.urgent {
+	color: @gray10;
+	background: @gray6;
+}
+
+/* Style when cursor is on the button */
+#workspaces button:hover {
+	background: @gray7;
+	color: @gray1;
+}
+
+#window {
+	margin-right: 5pt;
+	margin-left: 5pt;
+}
+
+#pulseaudio {
+	background: @gray2;
+	color: @gray10;
+}
+
+#network {
+	background: @gray8;
+	color: @gray1;
+}
+
+#backlight {
+    background: @gray3;
+    color: @gray10;
+}
+
+#memory {
+	background: @gray4;
+	color: @gray10;
+}
+
+#cpu {
+	background: @gray5;
+	color: @gray1;
+}
+
+#keyboard-state {
+    background: @gray1;
+    color: @gray10;
+}
+
+#temperature {
+	background: @gray6;
+	color: @gray1;
+}
+
+#language {
+	background: @layout;
+	color: @black;
+}
+
+#battery {
+	background: @gray7;
+	color: @gray1;
+}
+
+#tray {
+	background: @date;
+}
+
+#clock.date {
+	background: @gray9;
+	color: @gray1;
+}
+
+#clock.time {
+	background: @gray10;
+	color: @gray1;
+}
+
+#custom-arrow1 {
+	font-size: 15pt;
+	color: @gray10;
+	background: @gray9;
+}
+
+#custom-arrow2 {
+	font-size: 15pt;
+	color: @gray9;
+	background: @gray8;
+}
+
+#custom-arrow3 {
+	font-size: 15pt;
+	color: @gray8;
+	background: @gray7;
+}
+
+#custom-arrow4 {
+	font-size: 15pt;
+	color: @gray7;
+	background: @gray6;
+}
+
+#custom-arrow5 {
+	font-size: 15pt;
+	color: @gray6;
+	background: @gray5;
+}
+
+#custom-arrow6 {
+	font-size: 15pt;
+	color: @gray5;
+	background: @gray4;
+}
+
+#custom-arrow7 {
+	font-size: 15pt;
+	color: @gray4;
+	background: @gray3;
+}
+
+#custom-arrow8 {
+	font-size: 15pt;
+	color: @gray2;
+	background: @gray1;
+}
+
+#custom-arrow9 {
+	font-size: 15pt;
+	color: @gray1;
+	background: transparent;
+}
+
+#custom-arrow10 {
+	font-size: 15pt;
+	color: @gray1;
+	background: transparent;
+}
+#custom-arrow11 {
+    font-size: 15pt;
+    color: @gray3;
+    background: @gray2;
+}
