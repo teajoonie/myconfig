@@ -1,0 +1,35 @@
+[27025:27025:0419/145810.969732:INFO:frame_host.cc(742)] #### Lark () Startup ####
+[27025:27025:0419/145811.013595:ERROR:ozone_platform_x11.cc(247)] Missing X server or $DISPLAY
+[27025:27025:0419/145811.013628:ERROR:env.cc(233)] The platform failed to initialize.  Exiting.
+[27025:27025:0419/145811.013984:INFO:frame_host.cc(588)] #### Lark () Shutdown ####
+[27025:27025:0419/145811.014011:INFO:hook.cc(155)] SetMainRunLoopExit:1
+[27336:27336:0419/145856.878540:INFO:frame_host.cc(742)] #### Lark () Startup ####
+[27336:27336:0419/145856.885880:ERROR:ozone_platform_x11.cc(247)] Missing X server or $DISPLAY
+[27336:27336:0419/145856.885917:ERROR:env.cc(233)] The platform failed to initialize.  Exiting.
+[27336:27336:0419/145856.886316:INFO:frame_host.cc(588)] #### Lark () Shutdown ####
+[27336:27336:0419/145856.886363:INFO:hook.cc(155)] SetMainRunLoopExit:1
+[27361:27361:0419/145901.517200:INFO:frame_host.cc(742)] #### Lark () Startup ####
+[27361:27361:0419/145901.524717:ERROR:ozone_platform_x11.cc(247)] Missing X server or $DISPLAY
+[27361:27361:0419/145901.524755:ERROR:env.cc(233)] The platform failed to initialize.  Exiting.
+[27361:27361:0419/145901.525146:INFO:frame_host.cc(588)] #### Lark () Shutdown ####
+[27361:27361:0419/145901.525171:INFO:hook.cc(155)] SetMainRunLoopExit:1
+[29840:29840:0419/150337.357877:INFO:frame_host.cc(742)] #### Lark () Startup ####
+[29840:29840:0419/150337.365389:ERROR:ozone_platform_x11.cc(247)] Missing X server or $DISPLAY
+[29840:29840:0419/150337.365427:ERROR:env.cc(233)] The platform failed to initialize.  Exiting.
+[29840:29840:0419/150337.365855:INFO:frame_host.cc(588)] #### Lark () Shutdown ####
+[29840:29840:0419/150337.365881:INFO:hook.cc(155)] SetMainRunLoopExit:1
+[29882:29882:0419/150343.392705:INFO:frame_host.cc(742)] #### Lark () Startup ####
+[29882:29882:0419/150343.399995:ERROR:ozone_platform_x11.cc(247)] Missing X server or $DISPLAY
+[29882:29882:0419/150343.400035:ERROR:env.cc(233)] The platform failed to initialize.  Exiting.
+[29882:29882:0419/150343.400422:INFO:frame_host.cc(588)] #### Lark () Shutdown ####
+[29882:29882:0419/150343.400447:INFO:hook.cc(155)] SetMainRunLoopExit:1
+[30241:30241:0419/150411.972377:INFO:frame_host.cc(742)] #### Lark () Startup ####
+[30241:30241:0419/150411.979444:ERROR:ozone_platform_x11.cc(247)] Missing X server or $DISPLAY
+[30241:30241:0419/150411.979484:ERROR:env.cc(233)] The platform failed to initialize.  Exiting.
+[30241:30241:0419/150411.979877:INFO:frame_host.cc(588)] #### Lark () Shutdown ####
+[30241:30241:0419/150411.979902:INFO:hook.cc(155)] SetMainRunLoopExit:1
+[33743:33743:0419/151102.104973:INFO:frame_host.cc(742)] #### Lark () Startup ####
+[33743:33743:0419/151102.112397:ERROR:ozone_platform_x11.cc(247)] Missing X server or $DISPLAY
+[33743:33743:0419/151102.112437:ERROR:env.cc(233)] The platform failed to initialize.  Exiting.
+[33743:33743:0419/151102.112824:INFO:frame_host.cc(588)] #### Lark () Shutdown ####
+[33743:33743:0419/151102.112848:INFO:hook.cc(155)] SetMainRunLoopExit:1

@@ -116,6 +116,7 @@
 /* Workspaces stuff */
 #workspaces button {
 	/*font-weight: bold;*/
+    border-radius:10px;
 	padding-left: 4pt;
 	padding-right: 4pt;
 	color: @gray1;
