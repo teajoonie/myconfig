@@ -6,7 +6,7 @@
 
 exec_always --no-startup-id swaybg -m fill -t 20 -c 0x000000
 exec_always neofetch
-exec --no-startup-id fcitx5 
+exec --no-startup-id fcitx5 -d
 ### Variables
 #
 # Logo key. Use Mod1 for Alt.
