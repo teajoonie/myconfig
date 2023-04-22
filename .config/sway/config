@@ -48,7 +48,7 @@ bindsym $mod+Shift+s exec grim -g "$(slurp)"
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /usr/share/backgrounds/grayandred/grayandred_fox.jpg fill
+output * bg /usr/share/backgrounds/grayandred/grayandred3.jpg fill
 #
 # Example configuration:
 #

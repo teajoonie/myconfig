@@ -10,7 +10,7 @@
 
 /* Styles */
 /* my colorscheme */
-@define-color grayred2 #af0000;
+@define-color grayred2 #ed2b2c;
 @define-color grayred1 #ff0000;
 @define-color gray10 #393939;
 @define-color gray9  #4b4b4b;
@@ -56,7 +56,7 @@
 
 /* The whole bar */
 #waybar {
-	background: rgba(175,00,00, 1); /* #282828e0 */
+	background: rgba(234,43,44, 1); /* #EA2B2C */
 	color: @gray1;
 	font-family: Hack Nerd Font;
 	font-size: 13pt;
